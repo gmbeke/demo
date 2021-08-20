@@ -1,0 +1,111 @@
+*{
+    box-sizing: border-box;
+    
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+.button{
+    background-color:#0e4f1f;
+    color: white;
+    font: inherit;
+    padding: 8px;
+    border-radius: 8px;
+    border: 1.5px solid #0e4f1f;
+    font-weight: bold;
+    cursor: pointer;
+}
+.button:hover,
+.button:active {
+    background-color: white;
+    color: #0e4f1f;
+}
+.button:focus {
+    outline: none;
+}
+.main-header{
+    width: 100%;
+    background-color: #03c533;
+    padding: 8px 16px;
+    
+}
+.main-header > div{
+    
+    display: inline-block;
+    vertical-align: middle;
+}
+.main-header__brand{
+    color: #0e4f1f;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 22px;
+}
+.main-nav{
+    display: inline-block;
+    text-align: right;
+    width: calc(100% - 90px);
+    vertical-align: middle;
+}
+.main-nav__items{
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+    list-style: none;
+    
+}
+.main-nav__item{
+    display: inline-block;
+    margin: 0 16px;
+}
+.main-nav__item a{
+    text-decoration: none;
+    color: #0e4f1f;
+    padding: 3px 0px;
+    font-weight: bold;
+
+}
+.main-nav__item a:hover,
+.main-nav__item a:active{
+    color: #fff;
+    border-bottom: 5px solid #fff;
+}
+.main-nav__item--cta a{
+    background-color: #ff1b68;
+    color: #fff;
+    padding: 8px 16px;
+    border-radius: 8px;
+}
+.main-nav__item--cta a:hover,
+.main-nav__item--cta a:active{
+    background-color: #fff;
+    color: #ff1b68;
+    border: none;
+}
+#footer {
+    background:black;
+    margin-top: 80px;
+    padding: 30px;
+    text-align: center;
+} 
+.footer-content {
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+}
+.footer-content a{
+    vertical-align: middle;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 8px;
+    padding: 0px 8px;
+}
+.footer-content a:hover, 
+.footer-content a:active{
+    vertical-align: middle;
+    background-color: #dddddd;
+    color: black;
+    font-weight: bold;
+    border-radius: 8px;
+    padding: 0px  16px;
+}
